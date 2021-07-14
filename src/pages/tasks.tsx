@@ -1,4 +1,6 @@
-const tasks = () => {
+import React from "react";
+
+const Tasks: React.FC = () => {
   return (
     <div>
       <h1>Tasks</h1>
@@ -6,4 +8,4 @@ const tasks = () => {
   );
 };
 
-export default tasks;
+export default Tasks;
