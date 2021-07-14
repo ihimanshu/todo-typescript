@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Input from "../components/Input";
+import Button from "../components/Button";
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState("");
@@ -25,6 +26,7 @@ const Login: React.FC = () => {
           value={password}
           onTextChange={setPassword}
         />
+        <Button value="Login" className="btn btn-block" />
       </form>
       <Footer path="/sign-up" text="Sign Up" />
     </div>
